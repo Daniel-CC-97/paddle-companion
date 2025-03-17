@@ -1,7 +1,11 @@
+import SignUpPage from "./signup/page";
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div>
-      <h1>Paddle Companion</h1>
+      <Link href="/signup">Sign Up</Link>
+      <Link href="/signin">Sign In</Link>
     </div>
   );
 }
